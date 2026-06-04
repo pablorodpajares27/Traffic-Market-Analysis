@@ -51,11 +51,11 @@ It performs the following steps:
 7. stores the result in monthly or quarterly folders;
 8. writes logs and processing metadata.
 
-Example visual:
+Visual example:
 
-```md
-![Program 1 ingestion](../images/program1_ingestion_console.png)
-```
+<p align="center">
+  <img src="../images/1_data_processor.png" alt="BTS O&D Market Analysis cover" width="500">
+</p>
 
 Typical output folders:
 
@@ -99,9 +99,9 @@ It answers questions such as:
 
 Example visual:
 
-```md
-![Program 2 itineraries and segments](../images/program2_itineraries_segments_console.png)
-```
+<p align="center">
+  <img src="../images/2_itineraries_segments.png" alt="BTS O&D Market Analysis cover" width="500">
+</p>
 
 This stage is where the project moves from raw survey records into an analytical travel model.
 
@@ -125,9 +125,9 @@ Example aggregation outputs include:
 
 Example visual:
 
-```md
-![Program 3 aggregation engine](../images/program3_aggregation_engine_console.png)
-```
+<p align="center">
+  <img src="../images/23_agreggations_builder.png" alt="BTS O&D Market Analysis cover" width="500">
+</p>
 
 At this stage, the pipeline creates reusable market-level cubes such as:
 
@@ -152,9 +152,9 @@ These tables are designed to be easier to interpret and use in market analysis t
 
 Example visual:
 
-```md
-![Program 4 analytics builder](../images/program4_analytics_builder_console.png)
-```
+<p align="center">
+  <img src="../images/4_analysis_builder.png" alt="BTS O&D Market Analysis cover" width="500">
+</p>
 
 Main outputs include:
 
