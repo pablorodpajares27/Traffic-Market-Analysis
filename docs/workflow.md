@@ -123,10 +123,10 @@ Example aggregation outputs include:
 * market by purchase window;
 * market by WAC region.
 
-Example visual:
+Visual example:
 
 <p align="center">
-  <img src="../images/23_agreggations_builder.png" alt="BTS O&D Market Analysis cover" width="500">
+  <img src="../images/3_agreggations_builder.png" alt="BTS O&D Market Analysis cover" width="500">
 </p>
 
 At this stage, the pipeline creates reusable market-level cubes such as:
