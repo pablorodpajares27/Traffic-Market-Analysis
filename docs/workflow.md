@@ -28,9 +28,9 @@ A raw record can include information such as:
 
 Example visual:
 
-```md
-![Raw BTS survey sample](../images/raw_table_sample.png)
-```
+<p align="center">
+  <img src="../images/raw_data.png" alt="BTS O&D Market Analysis cover" width="500">
+</p>
 
 The purpose of the workflow is to turn this kind of raw survey structure into tables that can be used for market, route and competition analysis.
 
@@ -97,7 +97,7 @@ It answers questions such as:
 * How much distance belongs to each segment?
 * Where do connections happen?
 
-Example visual:
+Visual example:
 
 <p align="center">
   <img src="../images/2_itineraries_segments.png" alt="BTS O&D Market Analysis cover" width="500">
@@ -150,7 +150,7 @@ The fourth program combines the aggregated cubes into final processed tables.
 
 These tables are designed to be easier to interpret and use in market analysis than the individual cubes.
 
-Example visual:
+Visual example:
 
 <p align="center">
   <img src="../images/4_analysis_builder.png" alt="BTS O&D Market Analysis cover" width="500">
@@ -207,9 +207,9 @@ These examples are simplified and anonymized-style samples intended to show the 
 
 The final layer of the project is summarized in the following visual reference.
 
-```md
-![Analysis tables overview](../images/analysis_tables_overview.png)
-```
+<p align="center">
+  <img src="../images/market_core_summary.png" alt="BTS O&D Market Analysis cover" width="500">
+</p>
 
 This overview shows how the final tables support different analytical use cases:
 
