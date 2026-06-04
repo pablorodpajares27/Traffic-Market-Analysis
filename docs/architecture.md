@@ -4,7 +4,7 @@ This document describes the architecture behind the BTS O&D Market Analysis proj
 
 The goal of the project is to transform raw BTS Origin & Destination survey files into structured, analysis-ready tables that can support airline market analysis, competitive diagnostics, connectivity assessment and route opportunity screening.
 
-The architecture is organized as a layered data pipeline. Each layer has a specific analytical role and keeps a clear separation between raw data, modeled travel records, aggregated market cubes and final business-facing outputs.
+The architecture is organized as a layered data pipeline. Each layer has a specific analytical role and keeps a clear separation between raw data, modeled travel records, aggregated market cubes and final analysis-ready outputs.
 
 ---
 
@@ -32,7 +32,7 @@ The pipeline follows a progressive transformation approach:
 | Standardized storage | Period-based Parquet files  | Clean, auditable and column-consistent storage layer.                     |
 | Travel model         | Itineraries and segments    | Analytical representation of O&D journeys and individual travel segments. |
 | Aggregated cubes     | Market-level grouped tables | Reusable market, carrier, airport, booking and connectivity cubes.        |
-| Analysis layer       | Final analysis tables       | Business-ready outputs for market diagnostics and opportunity analysis.   |
+| Analysis layer       | Final analysis tables       | Analysis-ready outputs for market diagnostics and opportunity analysis.   |
 
 ---
 
@@ -159,7 +159,7 @@ This layer is designed to make the analytical logic configurable without rewriti
 
 ## 7. Analysis-ready layer
 
-The final layer combines the aggregated cubes into compact, business-facing tables.
+The final layer combines the aggregated cubes into compact, analysis-ready tables.
 
 These outputs are designed for market analysis and visual exploration, rather than raw data processing.
 
