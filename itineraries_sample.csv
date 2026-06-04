@@ -1,0 +1,6 @@
+source_period_type,source_data_type,report_year,report_month,report_quarter,report_period,origin_airport,destination_airport,origin_city_market,destination_city_market,od_airport_market,od_city_market,od_city_market_bidirectional,num_segments,is_nonstop,is_connecting,itinerary_type,first_marketing_carrier,first_operating_carrier,issue_carrier,reporting_carrier,passengers,total_amount,tax_amount,net_amount_approx,purchase_window_group,total_segment_distance
+monthly,db1c_monthly,2025,9,Q3,2025_09,LGA,MCO,31703,33195,LGA-MCO,31703-33195,31703-33195,1,true,false,nonstop,WN,WN,WN,WN,1,185.40,27.17,158.23,21AP,950
+monthly,db1c_monthly,2025,9,Q3,2025_09,BWI,SJU,30852,30977,BWI-SJU,30852-30977,30852-30977,2,false,true,one_stop,DL,DL,DL,DL,2,426.00,66.00,360.00,7AP,2133
+monthly,db1c_monthly,2025,10,Q4,2025_10,DFW,LGA,30194,31703,DFW-LGA,30194-31703,30194-31703,1,true,false,nonstop,AA,AA,AA,AA,1,558.96,67.46,491.50,21AP,1389
+monthly,db1c_monthly,2025,10,Q4,2025_10,HOU,BNA,31453,30995,HOU-BNA,31453-30995,30995-31453,3,false,true,two_stop,UA,UA,UA,UA,1,936.36,111.84,824.52,14AP,1410
+monthly,db1c_monthly,2025,11,Q4,2025_11,SEA,ANC,30559,30299,SEA-ANC,30559-30299,30299-30559,1,true,false,nonstop,AS,AS,AS,AS,1,361.96,53.72,308.24,21AP,1448
