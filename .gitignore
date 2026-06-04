@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large local data outputs
+*.parquet
+*.duckdb
+*.db
+*.log
+
+# Power BI local/cache files
+*.pbix
+*.pbit
+
+# Temporary files
+_temp*/
+tmp/
+temp/
