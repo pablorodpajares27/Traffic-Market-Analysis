@@ -26,7 +26,7 @@ A raw record can include information such as:
 * segment distances;
 * purchase window group.
 
-Example visual:
+Visual example:
 
 <p align="center">
   <img src="../images/raw_data.png" alt="BTS O&D Market Analysis cover" width="500">
@@ -206,6 +206,8 @@ These examples are simplified and anonymized-style samples intended to show the 
 ## 8. Final analysis table overview
 
 The final layer of the project is summarized in the following visual reference.
+
+Visual example:
 
 <p align="center">
   <img src="../images/market_core_summary.png" alt="BTS O&D Market Analysis cover" width="500">
