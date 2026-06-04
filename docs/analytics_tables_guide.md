@@ -2,6 +2,10 @@
 
 This guide summarizes the final processed tables produced by the analytics layer. These are the main tables intended for exploration, visualization and business interpretation.
 
+<p align="center">
+  <img src="../images/analysis_table_overview.png" alt="BTS O&D Market Analysis cover" width="500">
+</p>
+
 ---
 
 ## Quick table map
