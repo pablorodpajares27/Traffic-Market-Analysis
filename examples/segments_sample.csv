@@ -1,0 +1,6 @@
+itinerary_id,segment_number,source_period_type,source_data_type,report_year,report_month,report_quarter,report_period,origin_airport,destination_airport,od_airport_market,segment_origin_airport,segment_destination_airport,segment_market_airport,segment_marketing_carrier,segment_operating_carrier,segment_distance,dwell_time_after_segment,passengers,total_amount,num_segments,is_connecting,itinerary_type
+2025_09_row_000000000001,1,monthly,db1c_monthly,2025,9,Q3,2025_09,LGA,MCO,LGA-MCO,LGA,MCO,LGA-MCO,WN,WN,950,,1,185.40,1,false,nonstop
+2025_09_row_000000000002,1,monthly,db1c_monthly,2025,9,Q3,2025_09,BWI,SJU,BWI-SJU,BWI,ATL,BWI-ATL,DL,DL,577,95,2,426.00,2,true,one_stop
+2025_09_row_000000000002,2,monthly,db1c_monthly,2025,9,Q3,2025_09,BWI,SJU,BWI-SJU,ATL,SJU,ATL-SJU,DL,DL,1556,,2,426.00,2,true,one_stop
+2025_10_row_000000000004,1,monthly,db1c_monthly,2025,10,Q4,2025_10,HOU,BNA,HOU-BNA,HOU,IAH,HOU-IAH,UA,UA,483,160,1,936.36,3,true,two_stop
+2025_10_row_000000000004,2,monthly,db1c_monthly,2025,10,Q4,2025_10,HOU,BNA,HOU-BNA,IAH,BNA,IAH-BNA,UA,UA,670,,1,936.36,3,true,two_stop
